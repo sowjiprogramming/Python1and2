@@ -1,9 +1,6 @@
-# Print the input for choices
+import numpy as np
 
-starter = str(input("enter your favorite starter: "))
-maincourse = str(input("enter your favorite maincourse: "))
-dessert = str(input("enter your favorite dessert: "))
-drink = str(input("enter your favorite drink: "))
+a = np.arange(10)
+print(a)
 
-# Concatenate and print choices
-print("your favourite meal is",starter+",",maincourse+" and",dessert,"with a glass of "+drink)
+

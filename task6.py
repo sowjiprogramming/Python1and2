@@ -1,10 +1,7 @@
-def bike_cost(a):
-    while a > 1000:
-        pricedrop = a*0.1
-        a -= pricedrop
-        if a > 1000:
-            print(a)
+import numpy as np
 
-cost = int(input("enter your bike cost: "))
-bike_cost(cost)
+d = np.arange(1,11)
 
+d[d%2 == 1] = -1
+
+print(d)
